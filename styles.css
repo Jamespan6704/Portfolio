@@ -91,3 +91,7 @@ p {
   height: 200px;
   margin: 20px;
 }
+
+.socials a {
+  margin: 10px;
+}
