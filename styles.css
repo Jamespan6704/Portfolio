@@ -5,8 +5,7 @@ body {
 }
 
 section {
-  height: 500px;
-  background-color: rgb(230, 195, 173);
+  background-color: rgb(255, 255, 255);
   border: solid black 1px;
 }
 
@@ -49,6 +48,10 @@ h1 {
   font-size: 90px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 p {
   margin: 0px;
 }
@@ -79,7 +82,6 @@ p {
 }
 
 .button:active {
-  /* background-color: aqua; */
   color: rgb(99, 99, 99);
 }
 
@@ -94,4 +96,38 @@ p {
 
 .socials a {
   margin: 10px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px grey;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
 }
