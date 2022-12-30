@@ -54,6 +54,13 @@ h2 {
 
 p {
   margin: 0px;
+  font-size: 3vh;
+  font-weight: 300;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .hero-area {
@@ -65,6 +72,8 @@ p {
 .hero-text {
   margin-left: 5%;
   margin-bottom: 20%;
+  margin-right: 10%;
+
 }
 
 .button {
@@ -111,6 +120,10 @@ p {
   padding: 80px;
 }
 
+.information {
+  margin: 5%;
+}
+
 .headshot {
   width: 300px;
   border-radius: 150px;
@@ -130,4 +143,10 @@ p {
 .project-container {
   display: flex;
   justify-content: space-evenly;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 100px;
 }
