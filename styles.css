@@ -11,7 +11,7 @@ section {
 
 .hero {
   height: 100vh;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 40px;
   background-image: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.226)),
     url("/images/background.jpg");
@@ -73,21 +73,6 @@ p {
   margin-left: 5%;
   margin-bottom: 20%;
   margin-right: 10%;
-
-}
-
-.button {
-  width: 250px;
-  height: 55px;
-  border-radius: 40px;
-  background-color: rgb(59, 54, 218);
-  text-align: center;
-}
-
-.button:hover {
-  background-color: blue;
-  box-shadow: 2px 4px 5px rgb(0, 0, 0);
-  transition: 0.4s;
 }
 
 .button:active {
@@ -135,7 +120,7 @@ p {
 }
 
 .project-card {
-  width: 300px;
+  width: 400px;
   height: 500px;
   box-shadow: 5px 5px 20px grey;
 }
@@ -147,6 +132,39 @@ p {
 
 .project-image {
   margin-top: 25px;
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #1008ef;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+.button {
   width: 250px;
-  border-radius: 100px;
+  height: 55px;
+  border-radius: 40px;
+  background-color: rgb(59, 54, 218);
+  text-align: center;
+}
+
+.button:hover {
+  background-color: blue;
+  box-shadow: 2px 4px 5px rgb(0, 0, 0);
+  transition: 0.4s;
 }
